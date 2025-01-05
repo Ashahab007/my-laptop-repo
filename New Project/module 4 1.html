@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 4.1</title>
+  </head>
+  <body>
+    <h1>HTML 5 version Tags</h1>
+    <ul>
+      <li>audio</li>
+      <li>canvas</li>
+      <li>command</li>
+      <li>datalist</li>
+      <li>embed</li>
+      <li>video</li>
+    </ul>
+    <h4>Some Input tags</h4>
+    <ul>
+      <li>date</li>
+      <li>datetime-local</li>
+      <li>datetime</li>
+      <li>email</li>
+      <li>month</li>
+      <li>number</li>
+      <li>range</li>
+    </ul>
+    <h4>Why we use Semantic HTML Tags?</h4>
+    <ul>
+      <li>Accessibility</li>
+      <li>SEO</li>
+    </ul>
+    <p>
+      Note: Best practice হল article এর ক্ষেত্রে section use না করে article tag
+      নিয়ে section use করা।
+    </p>
+    <h1 style="text-decoration: underline">Audio Video</h1>
+    <p>
+      Below is my audio file. use control attributes in audio tag to activate
+      audio file
+    </p>
+    <audio
+      controls
+      src="./assets/media/mixkit-tech-house-vibes-130.mp3"
+    ></audio>
+    <video
+      controls
+      width="200px"
+      src="./assets/media/Eminem - Mockingbird (Lyrics).mp4"
+    ></video>
+
+    <h3>Adding youtube video</h3>
+    <p>In youtube share button select embed and paste it with iframe tag</p>
+    <iframe
+      width="450"
+      height="315"
+      src="https://www.youtube.com/embed/ELphoMApj-8?si=TK3rwuIDM8eJLVzv"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
