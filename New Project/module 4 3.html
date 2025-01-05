@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modele 4.3 (Form)</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h3>Overview of this Module</h3>
+      <ol>
+        <li>main</li>
+        <li>section</li>
+        <li>form</li>
+        <li>label</li>
+        <li>input = text (inside label place input)</li>
+        <li>fieldset</li>
+        <li>legend</li>
+        <li>input = radio</li>
+        <li>input = checkbox</li>
+        <li>fieldset with textarea = cols and rows in textarea</li>
+        <li>submit buuton</li>
+        <li>reset button</li>
+        <li>footer</li>
+      </ol>
+      <section>
+        <h2>Please fill up the form</h2>
+        <form>
+          <label for="name"
+            >Your Name:
+            <input id="name" type="text" placeholder="Your Name" />
+          </label>
+          <label for="email">
+            Your Email:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+            />
+          </label>
+          <label for="phone"
+            >Your Phone:
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Your Phone Number"
+            />
+          </label>
+          <fieldset>
+            <legend>Pick One Pitha</legend>
+            <label for="chitoi">
+              <input type="radio" name="pitha" id="chitoi" />Chitoi
+            </label>
+            <label for="vapapitha">
+              <input type="radio" name="pitha" id="vapapitha" />Vapapitha
+            </label>
+            <label for="puri">
+              <input type="radio" name="pitha" id="puri" />Puri
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Pickone or More Vorta</legend>
+            <label for="vorta">
+              <input type="checkbox" name="vorta" id="shorisha" />Shorisha
+            </label>
+            <label for="vorta">
+              <input type="checkbox" name="vorta" id="shutki" />Shutki
+            </label>
+            <label for="vorta">
+              <input type="checkbox" name="vorta" id="chilli" />Chilli
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+          </fieldset>
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
