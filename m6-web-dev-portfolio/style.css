@@ -88,11 +88,22 @@ nav ul {
   /* margin-left: 226px; */
 }
 
+.banner-description {
+  font-size: 18;
+  color: #757575;
+}
+
 /* Main styles */
 main {
   max-width: 1140px; /*as per design all  the main section width is 1140px and so applied as a max-width: 1140px in main section i.e  max-width is used here because different view port with different width.*/
   margin: 0 auto; /*as the different view port has different width so margin: 0 auto is a conventional.*/
 }
+
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
 /* Designing About section */
 
 .about {
@@ -102,13 +113,47 @@ main {
   height: 550px; */
   /* margin: 0 auto; */
   border-radius: 5px;
+  padding: 130px 150px;
+  text-align: center;
 }
 .section-title {
   font-size: 35px;
   font-weight: bold;
 }
 
-.banner-description {
-  font-size: 18;
+.section-title,
+.section-desciption {
+  text-align: center;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-description {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.item {
+  font-size: 20px;
   color: #757575;
+}
+
+/* Designing skill section */
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skills {
+  /* text-align: center; */
+}
+
+.skill {
+  padding: 30px;
+  /* text-align: center; */
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.233);
+  border-radius: 5px;
 }
