@@ -13,6 +13,7 @@
     url("../m6-web-dev-portfolio/images/header_bg.png");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+  background-color: #fff0e4;
 }
 /* Nav styles */
 
@@ -85,4 +86,29 @@ nav ul {
   max-width: 585px;
   /* margin-top: 500px; */
   /* margin-left: 226px; */
+}
+
+/* Main styles */
+main {
+  max-width: 1140px; /*as per design all  the main section width is 1140px and so applied as a max-width: 1140px in main section i.e  max-width is used here because different view port with different width.*/
+  margin: 0 auto; /*as the different view port has different width so margin: 0 auto is a conventional.*/
+}
+/* Designing About section */
+
+.about {
+  background-color: #fff0e4;
+  /* text-align: center; */
+  /* width: 1140px;
+  height: 550px; */
+  /* margin: 0 auto; */
+  border-radius: 5px;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.banner-description {
+  font-size: 18;
+  color: #757575;
 }
