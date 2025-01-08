@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f0cdd331d3.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Web Developer Portfolio</title>
   </head>
   <body>
@@ -27,8 +31,12 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="btn-primary">Download CV</button>
-          <button class="btn-primary">Contact</button>
+          <button class="btn-primary">
+            <i class="fa-solid fa-download"></i> Download CV
+          </button>
+          <button class="btn-primary">
+            <i class="fa-solid fa-phone"></i> Contact
+          </button>
         </div>
         <img
           class="banner-profile-picture"
@@ -195,7 +203,9 @@
           </div>
         </div>
         <div class="resume-button-section">
-          <button class="btn-primary">Download CV</button>
+          <button class="btn-primary">
+            <i class="fa-solid fa-download"></i> Download CV
+          </button>
         </div>
       </section>
       <!-- Resume section end -->
@@ -211,37 +221,50 @@
           </p>
           <div class="footer-icons">
             <div class="icon fb">
-              <a href=""><img src="./images/icons/facebook.png" alt="fb" /></a>
+              <a href="https://www.facebook.com/"
+                ><img src="./images/icons/facebook.png" alt="fb"
+              /></a>
             </div>
             <div class="icon twitter">
-              <a href=""
+              <a href="https://x.com/?lang=en&mx=2"
                 ><img src="./images/icons/twitter.png" alt="twitter"
               /></a>
             </div>
             <div class="icon instagram">
-              <a href=""
+              <a href="https://www.instagram.com/"
                 ><img src="./images/icons/insta.png" alt="instagram"
               /></a>
             </div>
           </div>
         </div>
+
         <div class="footer-column">
           <h4>Let’s Message me</h4>
-          <div class="footer-form">
-            <input type="text" name="name" id="name" placeholder="Your Name" />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Your Email"
-            />
-            <textarea
-              rows="10"
-              name="message"
-              id="message"
-              placeholder="Message"
-            ></textarea>
-          </div>
+          <form>
+            <div class="footer-form">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+              />
+              <textarea
+                rows="10"
+                name="message"
+                id="message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="form-button-section">
+              <button class="btn-primary">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
