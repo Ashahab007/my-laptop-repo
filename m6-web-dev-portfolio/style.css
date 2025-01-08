@@ -84,8 +84,6 @@ nav ul {
 
 .banner-content {
   max-width: 585px;
-  /* margin-top: 500px; */
-  /* margin-left: 226px; */
 }
 
 .banner-description {
@@ -94,7 +92,8 @@ nav ul {
 }
 
 /* Main styles */
-main {
+main,
+footer {
   max-width: 1140px; /*as per design all  the main section width is 1140px and so applied as a max-width: 1140px in main section i.e  max-width is used here because different view port with different width.*/
   margin: 0 auto; /*as the different view port has different width so margin: 0 auto is a conventional.*/
 }
@@ -195,4 +194,43 @@ main section {
 .resume .resume-button-section {
   text-align: center;
   margin-top: 50px;
+}
+
+/* style footer section */
+.footer-container {
+  display: flex;
+  gap: 100px;
+}
+
+.footer-column h4 {
+  font-size: 35px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.footer-description {
+  color: #757575;
+}
+
+.footer-form {
+  display: block;
+  /* flex-direction: column; */
+  gap: 30px;
+}
+
+.footer-form input {
+  width: 100%;
+  height: 64px;
+  margin-bottom: 24px;
+  padding: 2px 5px;
+}
+
+.footer-form textarea {
+  width: 100%;
+  resize: none;
+  padding: 5px;
 }
