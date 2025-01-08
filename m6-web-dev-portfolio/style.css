@@ -124,6 +124,8 @@ main section {
 .section-title,
 .section-desciption {
   text-align: center;
+  padding: 0px 150px;
+  margin-bottom: 50px;
 }
 
 .about-items {
